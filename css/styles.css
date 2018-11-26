@@ -1,0 +1,31 @@
+@font-face {
+	font-family: Helvetica;
+	src: url(../fonts/HelveticaLTStd-Roman.ttf);
+}
+/* Estilos del cuerpo de la pagina */
+body {
+  font-family: Helvetica;
+}
+.container {
+	border-radius: 10px 10px 0px 0px;
+}
+.titulo {
+	color: #ffffff;
+  text-shadow: 1px 1px 2px #02010a;
+}
+.navbar_top {
+	color: #ffffff;
+}
+#navbar {
+  background-color: #a93e05;
+}
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+@media (max-width: 767px) {
+		/* Container e imagenes */
+	#lista {
+    justify-content: center !important;
+    align-items: baseline !important;
+	}
