@@ -23,6 +23,25 @@ a {
   color: #ffffff;
   text-decoration: none;
 }
+#articulo {
+	border-radius: 0px 10px 0px 10px;
+}
+#search {
+		border-radius: 10px 0px 0px 0px;
+}
+#cancion {
+	width: 100%;
+}
+h4 {
+    color: #a93e05;
+}
+#list_nav a {
+	color: #000000;
+}
+#list_nav a:hover {
+	color: #ffffff;
+	background-color: #a93e05;
+}
 @media (max-width: 767px) {
 		/* Container e imagenes */
 	#lista {
