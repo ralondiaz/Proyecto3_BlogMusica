@@ -1,10 +1,14 @@
 @font-face {
 	font-family: Helvetica;
-	src: url(../fonts/HelveticaLTStd-Roman.ttf);
+	src: url(../fonts/HelveticaLTStd-Roman.otf);
 }
 /* Estilos del cuerpo de la pagina */
 body {
   font-family: Helvetica;
+	background-color: #f9770f;
+}
+header{
+	background-color:#000000;
 }
 .container {
 	border-radius: 10px 10px 0px 0px;
@@ -23,11 +27,16 @@ a {
   color: #ffffff;
   text-decoration: none;
 }
-#articulo {
+#articulo1, #articulo2 {
 	border-radius: 0px 10px 0px 10px;
+	background-color: #ffffff;
+}
+img {
+	max-width: 100%;
 }
 #search {
 		border-radius: 10px 0px 0px 0px;
+		background-color: #ffffff;
 }
 #cancion {
 	width: 100%;
@@ -44,7 +53,23 @@ h4 {
 }
 @media (max-width: 767px) {
 		/* Container e imagenes */
-	#lista {
+	#lista, #logo {
     justify-content: center !important;
     align-items: baseline !important;
 	}
+	#articulo2 {
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-flow: column wrap;
+		flex-flow: column wrap;
+	}
+	#img_audio2 {
+		order: 2;
+	}
+	#texto2 {
+		order: 1;
+	}
+	#comentario2 {
+		order: 3;
+	}
+}
